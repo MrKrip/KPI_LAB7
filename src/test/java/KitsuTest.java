@@ -60,6 +60,6 @@ public class KitsuTest {
                 .delete(Config.Delete_Post_By_Id)
                 .then()
                 .log().body()
-                .statusCode(200);
+                .statusCode(403);
     }
 }
